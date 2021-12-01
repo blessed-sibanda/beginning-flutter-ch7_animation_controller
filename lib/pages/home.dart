@@ -1,4 +1,5 @@
 import 'package:ch7_animation_controller/widgets/animated_ballon.dart';
+import 'package:ch7_animation_controller/widgets/staggered_animated_ballon.dart';
 import 'package:flutter/material.dart';
 
 class MyHomePage extends StatefulWidget {
@@ -22,7 +23,8 @@ class _MyHomePageState extends State<MyHomePage> {
           child: Column(
             mainAxisAlignment: MainAxisAlignment.center,
             children: const <Widget>[
-              AnimatedBallonWidget(),
+              // AnimatedBallonWidget(),
+              StaggeredAnimatedBallonWidget(),
             ],
           ),
         ),
